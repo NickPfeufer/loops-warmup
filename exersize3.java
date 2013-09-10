@@ -14,7 +14,7 @@ class exersize3 {
         System.out.println("sum: " + sum);
         
         for (int n = 2; n <= 20; n++){
-            term *= x/n
+            term *= x/n;
             sum += term;
             System.out.println("iteration: " + n);
             System.out.println("term: " + term);

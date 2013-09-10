@@ -1,7 +1,7 @@
 class exersize3 {
 	
 	public static void main(String[] args) {
-		
+		etothex(2);
 	}
 
 	public static double etothex(double x){
@@ -15,7 +15,6 @@ class exersize3 {
 			term = ((x * Math.exp(n-1))/(n-1)) * (x/n);
 			n++;
 		};
-		return answer();
 
 	}
 

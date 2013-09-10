@@ -7,7 +7,7 @@ class exersize3 {
 
     public static void etothex(double x){
         double n = 1.0;
-        double answer = n * x;
+        double answer = n * x + x;
         double term = x;
 
         System.out.println(1);

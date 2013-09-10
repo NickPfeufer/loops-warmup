@@ -1,3 +1,5 @@
+import   java.lang.Math.*;
+
 class exersize3 {
 	
 	public static void main(String[] args) {

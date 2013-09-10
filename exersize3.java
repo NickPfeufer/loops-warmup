@@ -6,27 +6,22 @@ class exersize3 {
 
 
     public static void etothex(double x){
-        double n = 1.0;
-        double answer = n * x + 1;
+        double sum = 1.0;
         double term = x;
-
-        System.out.println(1);
-        System.out.println(term);
-        System.out.println(answer);
-
-        n = 2;
-
-        for (int i = 1; i < 20; i++) {
-
-            answer += term;
-            term = ((x * Math.exp(n-1))/(n-1)) * (x/n);
-            n++;
-
-            System.out.println(i+1);
-            System.out.println(term);        
-            System.out.println(answer);
-
+        System.out.println("iteration: " + 1);
+        System.out.println("term: " + term);
+        sum += term;
+        System.out.println("sum: " + sum);
+        
+        for (int n = 2; n <= 20; n++){
+            term *= x/n
+            sum += term;
+            System.out.println("iteration: " + n);
+            System.out.println("term: " + term);
+            System.out.println("sum: " + sum);
         };
+
+        // };
 
 
     }
